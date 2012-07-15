@@ -2,7 +2,8 @@
 //-------------------------------------------------
 // reverse a null-terminated string in c/c++
 // i.e. "abcde" -> "edcba"
-//----------------------------------------------#include <string>
+//----------------------------------------------
+#include <iostream>
 #include <cstring>
 using namespace std;
 
