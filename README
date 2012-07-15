@@ -1,4 +1,6 @@
 #暑期算法团代码库，大家可以互相修改，一起上传
 
 # can use dev.sh to submit code to branch:
-# ./dev.sh \" your comments \"
+# ./dev.sh
+# the script will then ask you for comments and username / password
+
