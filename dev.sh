@@ -4,5 +4,5 @@ git add -A
 
 echo " input your comment: "
 read cmt
-git commit -m $cmt
+git commit -m "$cmt"
 git push -u origin
