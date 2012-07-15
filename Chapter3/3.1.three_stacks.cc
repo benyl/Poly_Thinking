@@ -108,6 +108,7 @@ main()
 {
   try
   {
+    // test: push elements to stacks
     Push(0, 0);
     Push(0, 1);
     Push(0, 2);
@@ -116,17 +117,21 @@ main()
     for(int i=0; i<CAPACITY-5; i++)
       Push(2, i);
 
+    // test: peak top elements of stacks
     for(int i = 0; i<3; i++)
       cout<<Peak(i)<< " ";
     cout << endl;
 
+    // test: show stack sizes of 3 stacks and start node of middle stack
     for(int i = 0; i<3; i++)
       cout<<stackSize[i]<< " ";
     cout << midStack << endl;
 
+    // test: show memory usage of array
     for(int i=0; i<CAPACITY; i++)
       {cout << buffer[i] << ((i%10!=9)?' ':'\n');}
 
+    // test: pop elements from stacks
     cout << "POP : ";
     for(int i=0; i<2; i++)
       cout<<Pop(0)<< " ";
@@ -137,17 +142,21 @@ main()
       cout<<Pop(2)<< " ";
     cout << endl;
 
+    // test: push elements to stacks
     for(int i=0; i<7; i++)
       Push(1, i*100 + 300);
 
+    // test: peak top elements of stacks
     for(int i = 0; i<3; i++)
       cout<<Peak(i)<< " ";
     cout << endl;
 
+    // test: show stack sizes of 3 stacks and start node of middle stack
     for(int i = 0; i<3; i++)
       cout<<stackSize[i]<< " ";
     cout << midStack << endl;
 
+    // test: show memory usage of array
     for(int i=0; i<CAPACITY; i++)
       {cout << buffer[i] << ((i%10!=9)?' ':'\n');}
   }
