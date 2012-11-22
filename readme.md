@@ -1,5 +1,6 @@
 #加入前请先练习 X.Z.Liang 或 Y.B.Luo 
-#暑期算法团代码库，大家可以互相修改，一起上传
+
+#Leetcode 是一个online judge ，主要针对各种面试算法题目
 
 ## can use dev.sh to submit code to branch:
 
